@@ -6,10 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
     <link rel="stylesheet" href="style.css">
-    <title>Calculatorrrr</title>
+    <title>Calculator</title>
 </head>
 <body>
-    <div id="app">
+    <div class="title">
+        <h3 class="title-app">Simple Calculator</h3>
+    </div>
+    <div id="app">        
         <div class="grid">
             <input @keyup.enter="calc()" type="text" v-model="result" placeholder="0">            
             <button v-for="num in numbers" @click="input(num)" class="cell num" >{{num}}</button>

@@ -84,12 +84,24 @@ select {
         font-weight: 600;
 }
 #app{
-    width: 200px;
+    width: 400px;
     box-shadow: 0 3px 15px gray;
+    margin: 0 auto;
+}
+
+.title{
+  margin-top: 80px;
+  text-align: center;
+}
+
+.title-app{
+  font-size: 22px;
+  color: #243844;
+  margin-bottom: 25px;
 }
 
 input[type='text'] {
-    width: 200px;
+    width: 400px;
     border: 0;
     color: #000;
     font-size: 18px;
@@ -118,7 +130,7 @@ input[type='text'] {
 }
 
 .cell:hover{
-    background-color: #243844;
+    background-color: #243854;
 }
 
 .op{
