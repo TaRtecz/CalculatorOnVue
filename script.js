@@ -13,7 +13,7 @@ var vue = new Vue({
         reset: function() {
             this.result = '';
         },
-        culc: function() {
+        calc: function() {
             this.result = eval(this.result);
         }
     },
